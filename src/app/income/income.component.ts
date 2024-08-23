@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
   standalone: true,
 
   imports: [CommonModule],
-  templateUrl: './income.component.html'
-  //styleUrls: ['./income.component.css']
+  templateUrl: './income.component.html',
+  styleUrls: ['./income.component.css']
 })
 export class IncomeComponent implements OnInit {
   incomes: Income[] = [];
