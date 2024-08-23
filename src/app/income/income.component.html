@@ -1,6 +1,7 @@
-<h2>Income List</h2>
-<ul>
-  <li *ngFor="let income of incomes">
-    {{ income.source }} - {{ income.amount }}
+<h2 class="income-title">Income List</h2>
+<ul class="income-list">
+  <li *ngFor="let income of incomes" class="income-item">
+    <span class="income-source">{{ income.source }}</span>
+    <span class="income-amount">{{ income.amount | currency }}</span>
   </li>
 </ul>
