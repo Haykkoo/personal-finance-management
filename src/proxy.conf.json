@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+    "target": "https://localhost:7265",
+    "changeOrigin": true, // helps on CORS Error in F12
+    "logLevel": "debug",
+    "rejectUnauthorzied": false, // or false if ok for you
+    "secure": false, // PROD must be "true", but DEV false else "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+    "strictSSL": true, // false is default
+    "withCredentials": true
+  }
+}
