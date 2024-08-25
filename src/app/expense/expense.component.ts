@@ -10,8 +10,8 @@ import { Expense } from '../models/expense';
   standalone: true,
 
   imports: [CommonModule],
-  templateUrl: './expense.component.html'
- // styleUrls: ['./expense.component.css']
+  templateUrl: './expense.component.html',
+  styleUrls: ['./expense.component.css']
 })
 export class ExpenseComponent implements OnInit {
   expenses: Expense[] = [];

@@ -11,8 +11,8 @@ import { CommonModule } from '@angular/common';
 
   selector: 'app-investment',
   imports: [CommonModule],
-  templateUrl: './investment.component.html'
-  //styleUrls: ['./investment.component.css']
+  templateUrl: './investment.component.html',
+  styleUrls: ['./investment.component.css']
 })
 export class InvestmentComponent implements OnInit {
   investments: Investment[] = [];

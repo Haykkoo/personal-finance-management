@@ -1,7 +1,8 @@
 
-<h2>Expense List</h2>
-<ul>
-  <li *ngFor="let expense of expenses">
-    {{ expense.category }} - {{ expense.amount }}
+<h2 class="expanse-title">Expanse List</h2>
+<ul class="expanse-list">
+  <li *ngFor="let expanse of expenses" class="expanse-item">
+    <span class="expanse-source">{{ expanse.category }}</span>
+    <span class="expanse-amount">{{ expanse.amount | currency }}</span>
   </li>
 </ul>

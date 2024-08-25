@@ -1,0 +1,34 @@
+.expense-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .expense-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .expense-source {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .expense-amount {
+    color: red;
+  }
+  
