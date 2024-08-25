@@ -1,6 +1,7 @@
-<h2>Investment List</h2>
-<ul>
-  <li *ngFor="let investment of investments">
-    {{ investment.type }} - {{ investment.amount }}
+<h2 class="investment-title">Investment List</h2>
+<ul class="investment-list">
+  <li *ngFor="let investment of investments" class="investment-item">
+    <span class="investment-source">{{ investment.type }}</span>
+    <span class="investment-amount">{{ investment.amount | currency }}</span>
   </li>
 </ul>
